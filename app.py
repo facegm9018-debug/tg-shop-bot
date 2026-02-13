@@ -3,8 +3,8 @@ from flask import Flask, request
 from aiogram import Bot
 import asyncio
 
-BOT_TOKEN = os.getenv("8159888762:AAEO8ZCZ0KiY9b6AIhcqiydgjatXSy7zkq0")
-EPAY_SECRET = os.getenv("f7a2c9c697cfed5980fcea22e280c732997b33139fe1ce27a6de1116febfb525")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+EPAY_SECRET = os.getenv("EPAY_SECRET")
 
 bot = Bot(token=BOT_TOKEN, parse_mode="HTML")
 
